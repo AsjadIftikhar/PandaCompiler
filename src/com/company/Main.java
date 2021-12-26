@@ -9,7 +9,7 @@ public class Main {
 //        filename should not include extension as .cc is assumed
 //        If compiling in windows make sure the file doesn't have the .txt extension
 //        Output extension is .out
-        String filename = "Main";
+        String filename = "test";
         PandaLex pandaLex = new PandaLex(filename);
         pandaLex.Execute();
 

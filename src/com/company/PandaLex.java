@@ -282,7 +282,7 @@ public class PandaLex {
                         currState = 0;
                         buffer = new StringBuilder();
                     } else {
-                        Token token = new Token("RO", "LT");
+                        Token token = new Token("RO", "GT");
                         writer(token);
 
                         currState = 0;

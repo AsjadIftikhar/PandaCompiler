@@ -502,7 +502,7 @@ public class PandaParser {
                 stnext = lineCounter;
                 // emit("goto ");
             } else if (Objects.equals(type, "While")) {
-                emit("goto  " + be[0]);
+                emit("goto " + be[0]);
                 backPatch(be[1], lineCounter);
             }
             printTabs();
@@ -913,7 +913,7 @@ public class PandaParser {
                         printTabs();
                         symbol.setValue(currToken.getLexeme());
                         symbolTable.replace(symbol.getToken(), symbol);
-                        emit(ASv + " = " + currToken.getLexeme());
+                        emit(ASv + " = '" + currToken.getLexeme() + "'");
                         Match("CHARL");
                     } else if (currToken.isEqual("STRING")) {
                         printTabs();
@@ -992,6 +992,7 @@ public class PandaParser {
             oos3AC.writeObject(new ThreeAddressCode(i, _3AddressCode.get(i)));
         }
 
+        System.out.println("--------------\n-----Program Output Begins Here --->\n---------------");
         PandaVM pandaVM = new PandaVM(_3AddressCode, symbolTable);
         pandaVM.run();
 
