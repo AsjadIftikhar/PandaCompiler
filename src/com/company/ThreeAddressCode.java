@@ -31,6 +31,6 @@ public class ThreeAddressCode implements Serializable {
 
     @Override
     public String toString() {
-        return (lineNumber + ": " + code + "/n");
+        return (lineNumber + ": " + code);
     }
 }

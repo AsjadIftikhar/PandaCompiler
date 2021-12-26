@@ -992,6 +992,9 @@ public class PandaParser {
             oos3AC.writeObject(new ThreeAddressCode(i, _3AddressCode.get(i)));
         }
 
+        PandaVM pandaVM = new PandaVM(_3AddressCode, symbolTable);
+        pandaVM.run();
+
         symbolWriter.flush();
         symbolWriter.close();
         pw.flush();
