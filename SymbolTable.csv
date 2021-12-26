@@ -1,3 +1,7 @@
 Type,Token,Value
+INT,a,1
+INT,b,1
+INT,temp,1
 CHAR,my_char,d
-CHAR,my_char1,e
+INT,c,1
+INT,num,null
