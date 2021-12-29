@@ -20,6 +20,10 @@ It is created in Compiler Construction Course during Fall 2021 by
 Concepts used to create the compiler were learned from the following book:
 - [Dragon Book Compilers Principle Techniques and Tools 2nd Edtion](http://ce.sharif.edu/courses/94-95/1/ce414-2/resources/root/Text%20Books/Compiler%20Design/Alfred%20V.%20Aho,%20Monica%20S.%20Lam,%20Ravi%20Sethi,%20Jeffrey%20D.%20Ullman-Compilers%20-%20Principles,%20Techniques,%20and%20Tools-Pearson_Addison%20Wesley%20(2006).pdf)
 
+## Design
+You can find the details of design of each phase of compiler including DFA, Regular Expressions etc in the [Design](https://github.com/AsjadIftikhar/PandaCompiler/tree/main/Design) Folder.
+It also contains the detailed description of the syntax for our CC language
+
 ## Final Output
 ![PandaCompiler](https://github.com/AsjadIftikhar/PandaCompiler/blob/main/compiler.png?raw=true)
 
