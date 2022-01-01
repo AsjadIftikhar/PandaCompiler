@@ -966,7 +966,7 @@ public class PandaParser {
         }
     }
 
-    public void makeParser() throws IOException, ClassNotFoundException {
+    public void Execute() throws IOException, ClassNotFoundException {
         pw = new FileWriter("Tree.txt");
 
         //Parser Starts here -->

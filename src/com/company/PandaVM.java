@@ -66,7 +66,6 @@ public class PandaVM {
     public void run() throws IOException {
 
         for (int pc = 0; pc < _3AddressCode.size(); pc++) {
-//            System.out.println((pc) + ": " + _3AddressCode.get(pc));
             String line = _3AddressCode.get(pc);
 
             if (line.startsWith("out")){

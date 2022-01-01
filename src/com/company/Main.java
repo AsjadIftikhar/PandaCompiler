@@ -17,8 +17,8 @@ public class Main {
         System.out.println("-------------------- Starts -------------------------------");
         System.out.println("-------------------- Here -------------------------------");
 
-        PandaParser pp = new PandaParser(filename);
-        pp.makeParser();
+        PandaParser pandaParser = new PandaParser(filename);
+        pandaParser.Execute();
 
     }
 }
