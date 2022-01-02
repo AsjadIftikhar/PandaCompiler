@@ -14,7 +14,7 @@ It is created in Compiler Construction Course during Fall 2021 by
 - Lexical Analyzer
 - Parser
 - Translator
-- Virual Machine
+- Virtual Machine
 - Design
 
 Concepts used to create the compiler were learned from the following book:
@@ -24,8 +24,15 @@ Concepts used to create the compiler were learned from the following book:
 You can find the details of design of each phase of compiler including DFA, Regular Expressions etc in the [Design](https://github.com/AsjadIftikhar/PandaCompiler/tree/main/Design) Folder.
 It also contains the detailed description of the syntax for our CC language
 
-## Final Output
-![PandaCompiler](https://github.com/AsjadIftikhar/PandaCompiler/blob/main/compiler.png?raw=true)
+## A sample Code in CC Language
+- A program to print fibonacci numbers until a given number
+
+![Syntax](/home/kai/Pictures/Syntax.png)
+
+## Output of the above program
+- Output of the program looks like this:
+
+![Output](/home/kai/Pictures/output.png)
 
 ## Installation
 
