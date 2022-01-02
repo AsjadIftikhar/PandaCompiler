@@ -27,12 +27,12 @@ It also contains the detailed description of the syntax for our CC language
 ## A sample Code in CC Language
 - A program to print fibonacci numbers until a given number
 
-![Syntax](/home/kai/Pictures/Syntax.png)
+![Syntax](Syntax.png)
 
 ## Output of the above program
 - Output of the program looks like this:
 
-![Output](/home/kai/Pictures/output.png)
+![Output](output.png)
 
 ## Installation
 
